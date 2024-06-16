@@ -1,0 +1,110 @@
+
+
+/* .minute-maid-portfolio{
+    background: url(../img/minute-maid/Minute_Maid_Can_Mockup.jpg);
+} */
+
+.minute-maid-page-body{
+    background-color: #ffffff !important;
+}
+
+/* .minute-maid-portfolio{
+    background: url(../img/minute-maid/Minute_Maid_Can_Mockup.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+} */
+
+
+
+.minute-maid-portfolio .next-page-arrow a {
+    color: #959b8c;
+}
+.minute-maid-portfolio .p-intro-header-txt-container{
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+section.cans-area {
+    margin-top: -258px;
+    position: relative;
+    z-index: -1;
+}
+
+.cans-txt-box {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+}
+
+
+
+
+
+
+/****** Minute Maid Ar Filter === Start ******/
+.overlap-main-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlap-box-1 h4 {
+    color: #F5F6EF;
+    font-size: 175px;
+    font-family: 'Impact';
+}
+.overlap-box-2 {
+    position: absolute;
+}
+
+.overlap-box-2 p {
+    margin: 0 10%;
+    line-height: 18px;
+    letter-spacing: .4px;
+}
+.minute_maid_ar_filter_mobile_video_items_all {
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    padding: 20px;
+}
+.minute_maid_ar_filter_mobile_video_item{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mmafm_video_box{
+    width: 408px;
+    height: 528px;
+    overflow: hidden;
+}
+.mmafm_img_box{
+    position: absolute;
+}
+.mmafm_video_box video {
+    border-radius: 30px;
+    height: 100%;
+}
+
+.mmafm_img_box img {
+    display: inline-block;
+    margin: 0 auto;
+}
+.minute_maid_ar_filter_mobile_video_col_1{
+    margin-right: -18%;
+}
+.minute_maid_ar_filter_mobile_video_col_2{
+    margin-left: -18%;
+}
+/****** Minute Maid Ar Filter === End ******/
+
+
+
+
+
+
+
+

@@ -1,0 +1,256 @@
+
+
+
+@media screen and (min-width: 1200px){
+    .custom_container{
+        /* max-width: 1070px !important; */
+        max-width: 960px !important;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    /******* For - Thinx page - Start *******/
+    .port-intro-main-txt-sec{
+        flex: 65%;
+    }
+    .port-intro-main-img-sec{
+        flex: 35%;
+    }
+    .flow-j-p-img .flow-j-p-img-large{
+        max-width: 50% !important; 
+        margin: 0 !important;
+    }
+    .flow-j-p-img .flow-j-p-img-small {
+        max-width: 40% !important;
+        margin-bottom: 3px !important;
+        margin-left: -45px !important;
+        margin-right: 45px !important;
+    }
+    .flow-j-persona-setup-page-txt h4 {
+        margin-bottom: -40px;
+    }
+    /******* For - Thinx page - End *******/
+
+
+    /******* For -  Minute Maid page - Start *******/
+   
+    /******* For -  Minute Maid page - End *******/
+
+    /******* For -  page - Start *******/
+    /******* For -  page - End *******/
+
+    /******* For -  page - Start *******/
+    /******* For -  page - End *******/
+
+}
+
+@media screen and (max-width: 768px) {
+
+    /******* For - Thinx page - Start *******/
+    /* Global Styles */
+    .title-text{
+        font-size: 35px;
+    }
+    .port-intro-main-txt-sec p{
+        margin-right: 0;
+    }
+
+    .portfolio-intro-main{
+        flex-direction: column;
+        text-align: center;
+    }
+    .port-intro-main-txt-sec,
+    .port-intro-main-img-sec{
+        margin: 0;
+    }
+    .port-intro-main-img-sec img {
+        transform: rotate(0);
+    }
+
+    .flow-j-persona-setup-page-txt h4 {
+        margin-right: auto;
+    }
+    .thinx-branding-txt-sec ul,
+    .thinx-branding-txt-sec h4,
+    .alexa-app-txt-sec span {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .conversation-alexa-txt-sec video {
+        max-width: 90%;
+    }
+    /******* For - Thinx page - End *******/
+
+
+
+    /******* For - Glad page - Start *******/
+    .instructions-items {
+        flex-wrap: wrap;
+    }
+    .instructions-item {
+        position: relative;
+        margin: 0 !important;
+        flex: 0 0 50%;
+    }
+    /******* For - Glad page - End *******/
+
+
+    /******* For -  Minute Maid page - Start *******/
+
+    section.cans-area {
+        margin-top: -280px;
+    }
+    .cans-img-box {
+        position: relative;
+        min-height: 350px;
+    }
+    .cans-img-box img{
+        height: 100%;
+    }
+    
+    .cans-img-box:after {
+        position: absolute;
+        background: rgb(0 0 0 / 71%);
+        content: "";
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .overlap-box-1 h4 {
+        font-size: 130px;
+    }
+    .minute_maid_ar_filter_mobile_video_items_all {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    /******* For -  Minute Maid page - End *******/
+
+    /******* For - Deloitte page - Start *******/
+    .deloiite_loop_full_process .deloiite_loop_full_process_link {
+        max-width: initial;
+      }
+    /******* For - Deloitte page - End *******/
+
+}
+
+
+@media screen and (max-width: 576px) {
+
+    /******* For - Thinx page - Start *******/
+    .flow-j-p-img {
+        padding-left: 0;
+    }
+    .flow-j-persona-setup-page-txt h4 {
+        margin-bottom: -35px;
+    }
+    .flow-j-p-img-large,
+    .flow-j-persona-img-large {
+        max-width: 200px !important;
+    }
+    .flow-j-p-img-small,
+    .flow-j-persona-img-small {
+        max-width: 150px !important;
+    }
+    .flow-j-p-img {
+        justify-content: center;
+        width: 100%;
+    }
+    .track-period-img-sec-left {
+        width: 100%;
+    }
+    .track-period-img-sec-right {
+        width: 100%;
+    }
+    /******* For - Thinx page - End *******/
+
+
+
+    /******* For - Glad page - Start *******/
+    .instructions-item {
+        flex: 0 0 100%;
+    }
+    /******* For - Glad page - End *******/
+
+    /******* For - Minute maid page - Start *******/
+    .minute-maid-portfolio .portfolio-intro-header {
+        margin-top: -43px;
+      }
+    
+    .cans-txt-box {
+        bottom: 0;
+    }
+    .overlap-box-1 h4 {
+        font-size: 80px;
+    }
+    /******* For - Minute maid page - End *******/
+
+    /******* For - Deloitte page - Start *******/
+    .dltt_table_of_contents_items .mt-3 {
+        margin-top: 25px !important;
+    }
+    /******* For - Deloitte page - End *******/
+
+
+}
+
+@media screen and (min-width: 769px) {
+
+    /******* For - Thinx page - Start *******/
+    .venus-img-sec img {
+        margin-top: -110px;
+    }
+    .flow-journey-cycle .col-6:nth-child(2n) {
+        margin-top: 100px;
+    }
+    .period-diary-img-sec{
+        transform: rotate(20deg);
+    }
+    .thinx-branding-txt-sec ul,
+    .thinx-branding-txt-sec h4,
+    .alexa-app-txt-sec span {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .promotional-ad-item img{
+        transform: rotate(18deg);
+    }
+    .promotional-ad-item-right-text {
+        margin-bottom: 13%;
+        margin-left: -50%;
+        max-width: 400px;
+    }
+    .promotional-ad-item-left-img-sec{
+        margin-right: -10%;
+    }
+    .promotional-ad-item-right-img-sec{
+        margin-left: -10%;
+    }
+
+    .alexa-skill-item {
+        flex: 0 0 33.33%;
+    }
+    /******* For - Thinx page - End *******/
+
+
+
+    /******* For -  page - Start *******/
+    /******* For -  page - End *******/
+
+    /******* For -  page - Start *******/
+    /******* For -  page - End *******/
+
+    /******* For -  page - Start *******/
+    /******* For -  page - End *******/
+
+}
+
+
+@media (min-width: 768px){
+    .navbar-expand-md .navbar-nav {
+        column-gap: 100px;
+    }
+}

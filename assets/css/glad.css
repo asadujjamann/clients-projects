@@ -1,0 +1,98 @@
+
+
+
+
+/****** Instructions Area === Start ******/
+.instructions-items {
+    display: flex;
+    justify-content: center;
+}
+/* 
+.instructions-item img {
+    width: 100%;
+}
+*/
+
+.instructions-item:nth-child(2), 
+.instructions-item:nth-child(1) {
+    margin-right: -80px;
+}
+
+.instructions-item {
+    position: relative;
+}
+
+.instructions-item:nth-child(3) {
+    margin-top: 80px;
+}
+
+.instructions-item:nth-child(4), 
+.instructions-item:nth-child(5) {
+    margin-left: -80px;
+}
+
+.instructions-item:nth-child(2),
+.instructions-item:nth-child(4) {
+    margin-top: -80px;
+    z-index: -1;
+}
+
+/****** Instructions Area === End ******/
+
+
+
+
+/****** Nurture app Area === Start ******/
+.nurture-app-area{
+    overflow: hidden;
+}
+.nurture-app-left-top img {
+    max-width: 520px;
+}
+
+.nurture_app_img_box {
+    position: relative;
+    min-height: 350px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+@media screen and (min-width: 992px) {
+    .nurture_app_img_box_bottom {
+        position: absolute;
+        top: 70px;
+        right: 0;
+    }
+}
+
+.nurture_app_img_box_top,
+.nurture_app_img_box_bottom{
+    column-gap: 30px;
+    max-width: 500px;
+}
+.nurture_app_img_box_top div, 
+.nurture_app_img_box_bottom div {
+    box-shadow: -8.43px 11.18px 26px 14px rgba(0,0,0,0.28);
+}
+/****** Nurture app Area === End ******/
+
+
+
+
+
+/****** AR Filter Area === Start ******/
+.ar_filter_social_and_qr > img {
+    max-width: 200px;
+}
+.ar_filter_social_and_qr a > img {
+    max-width: 220px;
+    margin-left: 25px;
+}
+/****** AR Filter Area === End ******/
+
+
+
+
+
+
+
