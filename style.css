@@ -1,0 +1,1001 @@
+
+
+/* Global  Style -- Start */
+@font-face {
+    font-family: 'HelveticaLTW01-Roman';
+    src: url('assets/fonts/Helvetica-W01-Roman/HelveticaLTW01-Roman.eot');
+    src: url('assets/fonts/Helvetica-W01-Roman/HelveticaLTW01-Roman.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Helvetica-W01-Roman/HelveticaLTW01-Roman.woff2') format('woff2'),
+        url('assets/fonts/Helvetica-W01-Roman/HelveticaLTW01-Roman.woff') format('woff'),
+        url('assets/fonts/Helvetica-W01-Roman/HelveticaLTW01-Roman.svg#HelveticaLTW01-Roman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    /* font-display: swap; */
+}
+@font-face {
+    font-family: 'tt_normslight';
+    src: url('assets/fonts/TT-Norms/ttnorms-light-webfont.woff2') format('woff2'),
+         url('assets/fonts/TT-Norms/ttnorms-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'tt_normsregular';
+    src: url('assets/fonts/TT-Norms/ttnorms-regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/TT-Norms/ttnorms-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'tt_normsbold';
+    src: url('assets/fonts/TT-Norms/ttnorms-bold-webfont.woff2') format('woff2'),
+         url('assets/fonts/TT-Norms/ttnorms-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Regular';
+    src: url('assets/fonts/Source-sans-pro/SourceSansPro-Regular.woff2') format('woff2'),
+        url('assets/fonts/Source-sans-pro/SourceSansPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    /* font-display: swap; */
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Bold';
+    src: url('assets/fonts/Source-sans-pro/SourceSansPro-Bold.woff2') format('woff2'),
+        url('assets/fonts/Source-sans-pro/SourceSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    /* font-display: swap; */
+}
+
+@font-face {
+    font-family: 'Source Sans Pro SemiBold';
+    src: url('assets/fonts/Source-sans-pro/SourceSansPro-SemiBold.woff2') format('woff2'),
+        url('assets/fonts/Source-sans-pro/SourceSansPro-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    /* font-display: swap; */
+}
+@font-face {
+    font-family: 'Impact';
+    src: url('assets/fonts/Impact/Impact.woff2') format('woff2'),
+        url('assets/fonts/Impact/Impact.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    /* font-display: swap; */
+}
+
+@font-face {
+    font-family: 'ambit_bold';
+    src: url('assets/fonts/Ambit/ambit-bold.woff2') format('woff2'),
+         url('assets/fonts/Ambit/ambit-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ambit_light';
+    src: url('assets/fonts/Ambit/ambit-light.woff2') format('woff2'),
+         url('assets/fonts/Ambit/ambit-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ambit_semibold';
+    src: url('assets/fonts/Ambit/ambit-semibold.woff2') format('woff2'),
+        url('assets/fonts/Ambit/ambit-semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    /* font-display: swap; */
+}
+
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('assets/fonts/Rubik/Rubik-Regular.woff2') format('woff2'),
+        url('assets/fonts/Rubik/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    /* font-display: swap; */
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('assets/fonts/Rubik/Rubik-SemiBold.woff2') format('woff2'),
+        url('assets/fonts/Rubik/Rubik-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    /* font-display: swap; */
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap'); */
+/* font-family: 'Rubik', sans-serif; */
+
+
+
+body{
+    background-color: #E5E5E5;
+    color: #B8B8B8;
+    font-size: 15px;
+    font-family: "Source Sans Pro Regular";
+}
+.fontSize16px{
+    font-size: 16px;
+}
+
+.tt_normslight{
+    font-family: 'tt_normslight' !important;
+}
+.tt_normsregular{
+    font-family: 'tt_normsregular' !important;
+}
+.tt_normsbold{
+    font-family: 'tt_normsbold' !important;
+}
+
+
+.source_sans_pro_ragular{
+    font-family: "Source Sans Pro Regular";
+}
+.source_sans_pro_semiBold{
+    font-family: "Source Sans Pro SemiBold";
+}
+.source_sans_pro_bold{
+    font-family: "Source Sans Pro Bold";
+}
+
+
+.ambit_bold{
+    font-family: 'ambit_bold' !important;
+}
+.ambit_light{
+    font-family: 'ambit_light' !important;
+}
+.ambit_semibold{
+    font-family: 'ambit_semibold' !important;
+}
+
+
+
+.navbar-black .navbar-nav .nav-link,
+.footer-copyright{
+    font-family: 'Rubik' !important;
+    font-weight: normal !important;
+    font-size: 15px !important;
+    color: #ffffff;
+}
+.port-head-txt-color{
+    color: #959B8C;
+}
+.deloitte-head-txt-color{
+    color: #A5AD9F;
+}
+.port-subhead-txt-color{
+    color: #D1D6CD !important;
+}
+.title-text{
+    color: #FAFAFA;
+    font-size: 55px;
+    font-family: "Source Sans Pro Bold";
+}
+.title-text-attach{
+    color: #F4B0AE;
+}
+.sub-heading-text{
+    font-family: "Source Sans Pro SemiBold";
+    color: #B8B8B8;
+    font-size: 15px;
+}
+img{
+    max-width: 100%;
+}
+.listType-mar-pad-0 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.listType-mar-pad-0 li{
+    color: #B8B8B8;
+    font-family: 'Source Sans Pro Regular';
+}
+.section-heading-h4{
+    color: #B8B8B8;
+    font-family: 'Source Sans Pro SemiBold';
+    font-size: 15px;
+}
+.mx-10-percent{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.mx-5-percent{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/****** Glad, Minute-maid,  === Pages ******/
+.glad-page-body,
+.minute-maid-page-body{
+    font-family: 'tt_normslight' !important;
+}
+.glad-page-body{
+    color: #D2B2C6 !important;
+    background-color: #ffffff !important;
+}
+
+
+
+.deloitte-page-body{
+    background-color: #ffffff !important;
+}
+.deloitte-full-page-body{
+    background-color: #ffffff !important;
+    font-size: 16px;
+}
+.deloitte-full-page-body h4 {
+    color: #DEDCD6;
+    font-size: 16px;
+    font-family: 'ambit_semibold';
+    margin-bottom: 0;
+}
+.deloitte-full-page-body h5 {
+    color: #dedcd5;
+    font-size: 16px;
+    font-family: 'ambit_light';
+}
+.deloitte-full-page-body p {
+    margin: 0;
+    color: #959b8c;
+    font-family: 'ambit_light';
+}
+.deloitte-full-page-body p strong{
+    font-family: 'ambit_semibold';
+}
+
+
+
+.glad-page-body img,
+.minute-maid-page-body img,
+.glad-page-body img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.minute_maid_subtext{
+    color: #D2B2C6;
+    font-family: 'tt_normslight';
+    letter-spacing: 0.4px;
+}
+
+
+.ad_a_day_body,
+.strings_body{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+/****** Video Area === Start ******/
+.video-item iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.video-item {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 551px;
+}
+@media screen and (max-width: 768px) {
+    .video-item {
+        min-height: 280px !important;
+    }
+}
+/****** Video Area === End ******/
+header,footer{
+    background-color: #090909;
+}
+
+/* Global  Style -- End */
+
+
+
+
+/**************** Header Styles -- Start ****************/
+header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.navbar-black .navbar-brand {
+    color: #000000;
+}
+.navbar-brand .vedika-logo{
+    max-width: 35px;
+}
+.navbar-black .navbar-toggler {
+    color: #000000;
+    border-color: #000000;
+}
+.navbar-black .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* .navbar-black .navbar-nav .nav-link {
+    letter-spacing: .1em;
+    transition: 0.2s;
+    margin: 0 10px;
+    border-bottom: 2px solid transparent;
+} */
+/* .navbar-black .navbar-nav .nav-link:hover {
+    transform: scale(1.2);
+} */
+
+.navbar-black .navbar-nav .nav-link:focus, 
+.navbar-black .navbar-nav .nav-link:hover {
+    font-weight: 600 !important;
+}
+
+
+
+/* Define the shape and color of the hamburger lines */
+.navbar-toggler span {
+    display: block;
+    background-color: #4f4f4f;
+    height: 3px;
+    width: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 0;
+    opacity: 1;
+    transition: all 0.35s ease-out;
+    transform-origin: center left;
+}
+/* top line needs a little padding */
+.navbar-toggler span:nth-child(1) {
+    margin-top: 0.3em;
+}
+/**
+ * Animate collapse into X.
+ */
+
+/* top line rotates 45 degrees clockwise and moves up and in a bit to close the center of the X in the center of the button */
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+    transform: translate(15%, -33%) rotate(45deg);
+}
+/* center line goes transparent */
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+    opacity: 0;
+}
+/* bottom line rotates 45 degrees counter clockwise, in, and down a bit to close the center of the X in the center of the button  */
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+    transform: translate(15%, 33%) rotate(-45deg) ;
+}
+
+
+/**
+ * Animate collapse open into hamburger menu
+ */
+
+/* top line moves back to initial position and rotates back to 0 degrees */
+.navbar-toggler span:nth-child(1) {
+    transform: translate(0%, 0%) rotate(0deg) ;
+}
+/* middle line goes back to regular color and opacity */
+.navbar-toggler span:nth-child(2) {
+    opacity: 1;
+}
+/* bottom line goes back to initial position and rotates back to 0 degrees */
+.navbar-toggler span:nth-child(3) {
+    transform: translate(0%, 0%) rotate(0deg) ;
+}
+
+/**************** Header Styles -- End ****************/
+
+
+
+
+
+
+
+.about_contact_box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+    background: rgba(196, 196, 196, 0.4);
+    padding: 22px 10px;
+    border-radius: 12px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+.about_contact_box img {
+    max-width: 32px;
+  }
+.about_inspir_text_box {
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+}
+.about_inspir_text_box h3{
+    font-weight: 300;
+    font-size: 20px;
+}
+@media screen and (max-width: 575px) {
+    .about_contact_box {
+        padding: 15px 6px !important;
+        transform: translate(0, 0) !important;
+        top: 63px;
+        z-index: 99;
+      }
+    .about_contact_box img {
+        max-width: 26px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .about_contact_box {
+        background: rgb(196 196 196 / 40%);
+        row-gap: 12px;
+        padding: 15px 8px;
+        transform: translate(-30%, -50%);
+    }
+    .about_contact_box img {
+        max-width: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*************** Portfolio Styles -- Start  *************/
+.portfolio-intro-full-area{
+    z-index: 1;
+    position: relative;
+}
+/* .portfolio-intro-header{
+
+} */
+.p-intro-header-txt-container{
+    max-width: 650px;
+}
+.portfolio-intro-header .port-head-txt{
+    font-family: 'tt_normsregular';
+    font-size: 16px;
+}
+.portfolio-intro-header .port-subhead-txt{
+    font-family: 'tt_normslight';
+    font-size: 15px;
+}
+.portfolio-intro-header .port-subhead-txt a{
+    color: #D1D6CD;
+    text-decoration: underline;
+}
+.portfolio-intro-header .port-subhead-txt a:hover,
+.next-page-arrow a:hover{
+    color: #959B8C;
+}
+.next-page-arrow a {
+    font-size: 50px;
+    color: #D1D6CD;
+    text-decoration: none;
+}
+
+.portfolio-intro-main{
+    display: flex;
+}
+.port-intro-main-txt-sec{
+    flex: 40%;
+    margin-right: -8%;
+}
+.port-intro-main-txt-sec p{
+    margin-right: 8%;
+}
+.port-intro-main-img-sec{
+    flex: 60%;
+    margin-left: -8%;
+}
+.port-intro-main-img-sec img {
+    transform: rotate(-35deg);
+    max-width: 700px;
+    width: 100%;
+}
+
+/*************** Portfolio Styles -- End  *************/
+
+
+/*********** Venus -- Start ************/
+/* .venus-main-area{}
+.venus-img-sec{}
+.venus-img-sec img{} */
+/*********** Venus -- End ************/
+
+
+
+
+/* Flow Journey -- Start */
+.flow-j-p-img {
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    padding-left: 40px;
+}
+.flow-j-p-img-large {
+    max-width: 300px;
+}
+.flow-j-persona-img-large{
+    max-width: 250px !important;
+}
+.flow-j-p-img-small {
+    max-width: 200px;
+    margin-bottom: 6px;
+    margin-left: -52px;
+}
+.flow-j-persona-img-small{
+    max-width: 180px !important;
+    cursor: pointer;
+}
+.flow-j-p-txt h4{
+    font-size: 15px;
+    font-weight: normal;
+    color: #B8B8B8;
+    font-family: 'Source Sans Pro Regular';
+}
+.flow-j-persona-setup-page-txt h4 {
+    max-width: 330px;
+    margin-left: auto;
+    margin-bottom: -60px;
+}
+.flow-j-persona-setup-page-txt h4 span {
+    font-weight: 600;
+}
+
+
+
+
+
+/* color: #B8B8B8;
+font-family: 'Source Sans Pro Regular'; */
+
+
+
+
+/* flow-journey-cycle -- start */
+.flow-j-cycle-item li:first-child{
+    font-family: "Source Sans Pro SemiBold";
+}
+/* flow-journey-cycle -- end */
+
+
+
+
+
+/* Modal -- start */
+/* Style the Image Used to Trigger the Modal */
+
+    #myImg,
+    #flow-j-persona-img-small,
+    #flow-j-persona-setup-page-img,
+    #thinx-branding-img{
+        border-radius: 5px;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+  
+  /* #myImg:hover {opacity: 0.7;} */
+  
+  /* The Modal (background) */
+  .thinxModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (Image) */
+  .thinxModal-content {
+    margin: auto;
+    display: block;
+    /* width: 80%; */
+    /* max-width: 700px; */
+    max-width: 300px;
+  }
+  #flow-j-persona-setup-page-modal-img{
+      max-width: 550px;
+  }
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  /* #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  } */
+  
+  /* Add Animation - Zoom in the thinxModal */
+  .thinxModal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .myClose,
+  .flow-j-persona-close,
+  .flow-j-persona-setup-page-close,
+  .thinx-branding-img-close{
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .myClose:hover,
+  .myClose:focus,
+  .flow-j-persona-close:hover,
+  .flow-j-persona-close:focus,
+  .flow-j-persona-setup-page-close:hover,
+  .flow-j-persona-setup-page-close:focus,
+  .thinx-branding-img-close:hover,
+  .thinx-branding-img-close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 768px){
+    .thinxModal-content {
+      width: 80%;
+    }
+  }
+/* Modal -- end */
+
+
+/* Flow Journey -- End */
+
+
+
+/*========== Thinx Branding -- Start ==========*/
+.thinx-branding-txt-sec h4 {
+    margin-bottom: 40px;
+}
+.thinx-branding-txt-sec ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.thinx-branding-img-sec img {
+    max-width: 350px;
+    width: 100%;
+}
+#thinx-branding-img-modalImg{
+    width: 50%;
+}
+/*========== Thinx Branding -- End ==========*/
+
+
+/*========== Track Period Journey -- Start ==========*/
+.track-period-img-sec-left{
+    width: 55%;
+}
+.track-period-img-sec-right{
+    width: 45%;
+}
+.track-period-img-sec img {
+    width: 90%;
+}
+/*========== Track Period Journey -- End ==========*/
+
+
+
+/*========== Period Diary -- Start ==========*/
+
+/*========== Period Diary -- End ==========*/
+
+
+
+
+/*========== Conversation with Alexa -- Start ==========*/
+.conversation-alexa-txt-sec video {
+    max-width: 82%;
+    height: auto;
+    border: 10px solid #ffffff;
+}
+.alexa-app-txt-sec a {
+    transition: all 0.2s ease, visibility 0s;
+    background: #DAD9D9;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin-top: 3%;
+}
+
+.alexa-app-txt-sec a:hover {
+    background: #E5E5E5;
+    border: 1px solid #E9E7DF;
+    box-shadow: 0 0 15px #B8B8B8;
+    color: #B8B8BA;
+}
+/*========== Conversation with Alexa -- End ==========*/
+
+
+
+
+
+/*========== connected to thinx -- start ==========*/
+.connected-thinx-txt p {
+    max-width: 680px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+/*========== connected to thinx -- end ==========*/
+
+
+
+
+/*========== Out Home advertisements -- start ==========*/
+
+.out-home-ad-item{
+    margin-bottom: 2%;
+}
+/*========== Out Home advertisements -- end ==========*/
+
+
+
+
+/*========== Promotional ad -- start ==========*/
+.promotional-ad-item ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+/*========== Promotional ad -- end ==========*/
+
+
+
+/*========== Alexa Skill Process -- start ==========*/
+.alexa-skill-items-main .top-line,
+.alexa-skill-items-main .bottom-line {
+    height: 2px;
+    background: #99C8E2;
+    width: 95%;
+}
+.alexa-skill-all-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.alexa-skill-item {
+    opacity: 0.6;
+    max-width: 100%;
+    position: relative;
+    width: auto;
+}
+.back-to-flow a{
+    text-decoration: none;
+    font-family: "Source Sans Pro Regular";
+    color: #B8B8B8;
+    font-size: 15px;
+}
+/*========== Alexa Skill Process -- end ==========*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*========== Footer top -- start ==========*/
+.footer-top-txt-first{
+    font-family: "Source Sans Pro Regular";
+}
+.footer-top-txt-second{
+    font-size: 10px;
+}
+
+/*========== Footer top -- end ==========*/
+
+
+/**************** Footer Styles -- Start ***************/
+/* .footer-copyright p {
+    font-size: 15px;
+} */
+.footer-copyright{
+    text-align: right;
+}
+
+.footer-copyright p,
+.footer-copyright a{
+    /* color: #B8B8B8; */
+    color: #ffffff;
+}
+.footer-copyright a {
+    transition: 0.2s;
+    text-decoration: none;
+}
+.footer-copyright a:focus, 
+.footer-copyright a:hover {
+    font-family: 'Rubik';
+    font-weight: 600 !important;
+    transform: scale(1.2);
+}
+
+
+/**************** Footer Styles -- End ****************/
+
+
+
+
+
+
+
+/*========== Ad a Day Page area -- start ==========*/
+.ad_a_day_portfolio_intro_area h1{
+    font-family: 'tt_normsbold';
+    font-size: 25px;
+    color: #ffffff;
+}
+.ad_a_day_portfolio_intro_area .port-head-txt{
+    font-size: 16px;
+    color: #cccccc;
+}
+/* .ad_a_day_portfolio_intro_area .port-subhead-txt{
+    font-size: 16px;
+    color: #cccccc;
+} */
+.ad_a_day_gall_item {
+    /* border: 1px solid #ffffff; */
+    height: 100%;
+}
+.ad_a_day_gall_item img{
+    width: 100%;
+    height: 100%;
+}
+.main-row {
+    display: flex;
+}
+
+.main-col {
+    flex: 0 0 50%;
+}
+
+.sub-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sub-col-padd{
+    padding: 5px;
+    width: 100%;
+}
+
+.sub-col {
+    flex: 1 0 50%;
+}
+
+
+
+/***** LightBox *****/
+
+.lb-data .lb-close {
+    background: none;
+    text-decoration: none;
+    opacity: 1 !important;
+    margin-top: 10px;
+  }
+.lb-data .lb-close:after {
+    content: "✕";
+    color: #000000;
+    font-size: 30px;
+}
+.lb-data .lb-number {
+    color: #000000;
+    font-size: 14px;
+}
+.lightboxOverlay {
+    background-color: #ffffff;
+    opacity: 1;
+}
+.lb-data .lb-caption {
+    font-size: 20px;
+    color: #000000;
+    font-family: 'tt_normsregular';
+  }
+@media screen and (min-width: 992px) {
+
+    /***** LightBox *****/
+    .lightbox .lb-image{
+        border-radius: 0 !important;
+        border: 0 !important;
+    }
+    .lightbox {
+        display: flex;
+        padding: 0 80px;
+    }
+    .lb-data {
+        padding: 15px;
+    }
+    .lb-data, .lb-details {
+        height: 100%;
+    }
+    .lb-data .lb-caption {
+        display: flex !important;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+    }
+
+}
+.ad_a_day_footer_top_txt{
+    font-family: 'tt_normslight';
+    font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+    .main-row {
+        flex-direction: column;
+    }
+}
+/*========== Ad a Day Page area -- end ==========*/
+
+
+
+
+/*========== Strings Page area -- start ==========*/
+.strings_portfolio_intro_area .port-head-txt{
+    font-family: 'tt_normsregular';
+    color: #ffffff !important;
+    font-size: 16px !important;
+}
+.strings_portfolio_intro_area .port-subhead-txt{
+    font-family: 'tt_normsregular';
+    color: #cccccc !important;
+    font-size: 18px !important;
+}
+/*========== Strings Page area -- end ==========*/
+
+
+
+
