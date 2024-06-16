@@ -1,0 +1,220 @@
+/* Global Styles -- Start */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap");
+@font-face {
+  font-family: "Snell-Roundhand-W01-Script";
+  src: url("assets2/fonts/Snell-Roundhand-W01-Script.woff2") format("woff2"), url("assets2/fonts/Snell-Roundhand-W01-Script.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("assets2/fonts/Rubik/Rubik-Regular.woff2") format("woff2"), url("assets2/fonts/Rubik/Rubik-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("assets2/fonts/Rubik/Rubik-SemiBold.woff2") format("woff2"), url("assets2/fonts/Rubik/Rubik-Regular.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "tt_normsregular";
+  src: url("assets/fonts/TT-Norms/ttnorms-regular-webfont.woff2") format("woff2"), url("assets/fonts/TT-Norms/ttnorms-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body.nohands_body {
+  font-family: "Playfair Display", serif;
+  color: #292f2f;
+}
+
+body.homebase_body,
+body.resourcehub_body,
+body.collections_body,
+body.AR_experiences_body {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+body.resourcehub_body img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.homebase_body a {
+  text-decoration: none;
+  color: #ffffff !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+.navbar-black .navbar-nav .nav-link,
+.footer-copyright {
+  font-family: "Rubik" !important;
+  font-weight: normal !important;
+  font-size: 15px !important;
+  color: #ffffff;
+}
+
+.pt_percent {
+  padding-top: 7%;
+}
+
+.pb_percent {
+  padding-bottom: 7%;
+}
+
+.pt_15_percent {
+  padding-top: 15%;
+}
+
+.pb_15_percent {
+  padding-bottom: 15%;
+}
+
+.contact_box,
+.about_contact_box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+  background: rgba(196, 196, 196, 0.4);
+  padding: 22px 10px;
+  border-radius: 12px;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.contact_box img,
+.about_contact_box img {
+  max-width: 32px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+/* Global Styles -- End */
+/*********** Header Section == Start ***********/
+.logo_img_box {
+  margin-right: -8px;
+}
+
+.logo_txt_box {
+  margin-left: -8px;
+}
+
+.logo_txt_box a {
+  font-size: 28px;
+  color: #2f2e2e;
+  text-decoration: none;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: #000000;
+}
+
+header .mainLogo {
+  max-width: 70px;
+}
+
+.navbar-black .navbar-brand {
+  color: #000000;
+}
+
+.navbar-brand .vedika-logo {
+  max-width: 35px;
+  width: 35px;
+  height: 37px;
+}
+
+.navbar-black .navbar-toggler {
+  color: #000000;
+  border-color: #000000;
+}
+
+.navbar-black .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-black .navbar-nav .nav-link:focus,
+.navbar-black .navbar-nav .nav-link:hover {
+  font-weight: 600 !important;
+}
+
+/* Define the shape and color of the hamburger lines */
+.navbar-toggler span {
+  display: block;
+  background-color: #4f4f4f;
+  height: 3px;
+  width: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  left: 0;
+  opacity: 1;
+  transition: all 0.35s ease-out;
+  transform-origin: center left;
+}
+
+/* top line needs a little padding */
+.navbar-toggler span:nth-child(1) {
+  margin-top: 0.3em;
+}
+
+/**
+ * Animate collapse into X.
+ */
+/* top line rotates 45 degrees clockwise and moves up and in a bit to close the center of the X in the center of the button */
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+  transform: translate(15%, -33%) rotate(45deg);
+}
+
+/* center line goes transparent */
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+  opacity: 0;
+}
+
+/* bottom line rotates 45 degrees counter clockwise, in, and down a bit to close the center of the X in the center of the button  */
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+  transform: translate(15%, 33%) rotate(-45deg);
+}
+
+/**
+ * Animate collapse open into hamburger menu
+ */
+/* top line moves back to initial position and rotates back to 0 degrees */
+.navbar-toggler span:nth-child(1) {
+  transform: translate(0%, 0%) rotate(0deg);
+}
+
+/* middle line goes back to regular color and opacity */
+.navbar-toggler span:nth-child(2) {
+  opacity: 1;
+}
+
+/* bottom line goes back to initial position and rotates back to 0 degrees */
+.navbar-toggler span:nth-child(3) {
+  transform: translate(0%, 0%) rotate(0deg);
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav {
+    -moz-column-gap: 100px;
+         column-gap: 100px;
+  }
+}
+/*********** Header Section == End ***********/

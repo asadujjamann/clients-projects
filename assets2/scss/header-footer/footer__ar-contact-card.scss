@@ -1,0 +1,27 @@
+/**************** Footer Styles -- Start ***************/
+footer {
+    background: transparent;
+    .container {
+        @media (min-width: 1520px) {
+            max-width: 1280px;
+        }
+    }
+}
+
+.footer-copyright {
+    text-align: right;
+}
+
+.footer-copyright p,
+.footer-copyright a {
+    /* color: #B8B8B8; */
+    color: #ffffff;
+}
+.footer-copyright a {
+    text-decoration: none;
+}
+.footer-copyright a:focus,
+.footer-copyright a:hover {
+    font-weight: 600 !important;
+}
+/**************** Footer Styles -- End ****************/
