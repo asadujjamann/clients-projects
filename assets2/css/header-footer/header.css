@@ -155,6 +155,10 @@ header .mainLogo {
   font-weight: 600 !important;
 }
 
+.navbar-black .navbar-nav .nav-item:nth-child(2) {
+  display: none;
+}
+
 /* Define the shape and color of the hamburger lines */
 .navbar-toggler span {
   display: block;
