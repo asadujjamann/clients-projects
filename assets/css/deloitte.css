@@ -35,6 +35,7 @@
     
 } */
 .deloiite_loop_img_box a,
+.deloiite_loop_img_box img,
 .deloiite_loop_img_box span,
 .deloiite_loop_img_box.Journeymap_UX img {
     border-radius: 30px;
