@@ -169,7 +169,7 @@ session_start();
             <a target="_blank" href="https://linkedin.com/in/vedikabhasin">
               <img src="../assets2/img/_homebase/linkedin.png" alt="linkedin">
             </a>
-            <a href="mailto:vedikbhasin@gmail.com">
+            <a href="mailto:vedikabhasin@gmail.com">
               <img src="../assets2/img/_homebase/email.png" alt="email">
             </a>
             <a target="_blank"
@@ -435,7 +435,7 @@ session_start();
 
             <div class="footer-copyright">
 
-              <p class="m-0">Reach out to me at <a href="mailto:vedikbhasin@gmail.com">vedikabhasin@gmail.com</a></p>
+              <p class="m-0">Reach out to me at <a href="mailto:vedikabhasin@gmail.com">vedikabhasin@gmail.com</a></p>
 
             </div>
 
